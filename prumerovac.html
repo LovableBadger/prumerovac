@@ -29,13 +29,13 @@ var klikznamka = 0;
 var klikvaha = 100;
 
 function novaznamka() {
-    var znamka = document.createElement("input");
-    znamka.setAttribute("id", klikznamka += 1);
-    znamka.setAttribute("size","3");
-    znamka.setAttribute("class","z")
-    var prdel = document.createTextNode("Známka");    
-    document.body.appendChild(znamka);
-    document.getElementById("Znamky").appendChild(znamka);  
+	var znamka = document.createElement("input");
+	znamka.setAttribute("id", klikznamka += 1);
+    	znamka.setAttribute("size","3");
+    	znamka.setAttribute("class","z")
+    	var prdel = document.createTextNode("Známka");    
+    	document.body.appendChild(znamka);
+    	document.getElementById("Znamky").appendChild(znamka);  
 }
 
 function novavaha() {
@@ -44,8 +44,8 @@ function novavaha() {
 	vaha.setAttribute("size","3");
 	vaha.setAttribute("class","v")
 	var neprdel = document.createTextNode("Váha");    
-  document.body.appendChild(vaha);
-  document.getElementById("Vahy").appendChild(vaha);
+  	document.body.appendChild(vaha);
+  	document.getElementById("Vahy").appendChild(vaha);
 }
 
 
